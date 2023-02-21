@@ -1,4 +1,6 @@
 .App {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -36,3 +38,11 @@
     transform: rotate(360deg);
   }
 }
+.header {
+  background-color: #ffffff;
+  color: #9b2020;
+  padding: 80px;
+  justify-content: center;
+  text-align: center;
+}
+
