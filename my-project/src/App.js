@@ -1,19 +1,30 @@
-import Navbar  from "./components/Navbar"
-import Header from "./components/Header"
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css"
-import { Button } from 'react-bootstrap';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import About from './About';
+import Header from './components/Header';
+import Main  from './components/Main';
+
+
 
 
 
 function App() {
   return (
-   <>
-   
-    <Navbar />
+    <> 
     <Header />
+    <Router>
+    <Navbar />
+    <Switch>
+      <Route path="/about" component={About} />
+    </Switch>
+    </Router>
+
+   
+   
     
-    </>
+     </>
+
   );
 }
 

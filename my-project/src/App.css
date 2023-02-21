@@ -38,9 +38,9 @@
     transform: rotate(360deg);
   }
 }
-.header {
-  background-color: #ffffff;
-  color: #9b2020;
+.home {
+  background-color: #ff0303;
+  color: #ff0000;
   padding: 80px;
   justify-content: center;
   text-align: center;
