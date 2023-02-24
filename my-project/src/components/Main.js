@@ -56,10 +56,11 @@ const Main = () => {
         <PortfolioCard>
           <h3>Project 2</h3>
           <p>[Brief description of project]</p>
+          <Link herf = "https://github.com/MarcusC811/Aniverse" >Aniverse</Link>
         </PortfolioCard>
         <PortfolioCard>
           <h3>Project 3</h3>
-          <Link href="https://github.com/MarcusC811/Aniverse">Aniverse</Link>
+          <Link href=" https://sleepy-peak-49948.herokuapp.com/">Tik-Tak-Code</Link>
         </PortfolioCard>
       </PortfolioContainer>
     </MainContainer>
